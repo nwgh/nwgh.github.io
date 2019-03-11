@@ -1,3 +1,38 @@
 div {
     padding-bottom: 10px;
 }
+
+.officiant, .people, .everyone {
+    display: block;
+}
+
+.people, .everyone {
+    font-style: italic;
+}
+
+.people .everyone, .officiant .everyone{
+    display: inline;
+}
+
+.lord {
+    font-variant: small-caps;
+}
+
+.verse {
+    vertical-align: super;
+    font-size: 50%;
+}
+
+.psalm h2 {
+    -webkit-margin-after: 0em;
+}
+
+.psalm p {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+
+.cite {
+    font-style: italic;
+    font-size: 75%;
+}
