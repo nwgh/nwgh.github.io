@@ -18,7 +18,7 @@ div {
     font-variant: small-caps;
 }
 
-.verse {
+.verseno {
     vertical-align: super;
     font-size: 50%;
 }
@@ -35,4 +35,8 @@ div {
 .cite {
     font-style: italic;
     font-size: 75%;
+}
+
+.psalm, .collect, .verse {
+    display: none;
 }
