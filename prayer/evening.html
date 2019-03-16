@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Daily Evening Prayer</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="prayer.css">
+        <script src="prayer.js"></script>
+    </head>
+    <body onload="setupPrayer();">
+        <h1>Daily Evening Prayer</h1>
+        <div>
+            Dearly beloved, here in the presence of Almighty God,
+            let us kneel in silence, and with penitent and obedient
+            hearts confess our sins, that we may obtain forgiveness by
+            his infinite goodness and mercy.
+        </div>
+        <div>
+            Most merciful God,
+            we confess that we have sinned against you
+            in thought, word, and deed,
+            by what we have done,
+            and by what we have left undone.
+            We have not loved you with our whole heart;
+            we have not loved our neighbors as ourselves.
+            We are truly sorry and we humbly repent.
+            For the sake of your Son Jesus Christ,
+            have mercy on us and forgive us;
+            that we may delight in your will,
+            and walk in your ways,
+            to the glory of your Name. Amen.
+        </div>
+        <div>
+            Almighty God have mercy on us, forgive us all our sins
+            through our Lord Jesus Christ, strengthen us in all
+            goodness, and by the power of the Holy Spirit keep us in
+            eternal life. Amen.
+        </div>
+        <div>
+            <span class="officiant">O God, make speed to save us.</span>
+            <span class="people">O Lord, make haste to help us.</span>
+        </div>
+        <div class="gloriapatri prayer">
+            Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning, is now, and ever shall be; world without end. Amen.
+        </div>
+        <div id="psalms">
+            <!-- TODO: link to today's psalms here -->
+        </div>
+        <div class="gloriapatri prayer">
+            Glory be to the Father, and to the Son, and to the Holy Ghost: as it was in the beginning, is now, and ever shall be; world without end. Amen.
+        </div>
+        <div id="magnificat">
+            My soul proclaims the greatness of the Lord,
+                my spirit rejoices in God my Savior;
+                for he has looked with favor on his lowly servant.
+            From this day all generations will call me blessed:
+                the Almighty has done great things for me,
+                and holy is his Name.
+            He has mercy on those who fear him
+                in every generation.
+            He has shown the strength of his arm,
+                he has scattered the proud in their conceit.
+            He has cast down the mighty from their thrones,
+                and has lifted up the lowly.
+            He has filled the hungry with good things,
+                and the rich he has sent away empty.
+            He has come to the help of his servant Israel,
+                for he has remembered his promise of mercy,
+            The promise he made to our fathers,
+                to Abraham and his children for ever.
+        </div>
+        <div class="gloriapatri prayer">
+            Glory to the Father, and to the Son, and to the Holy Spirit:
+                as it was in the beginning, is now, and will be for ever. Amen.
+        </div>
+        <div class="creed">
+            <p>
+            I believe in God, the Father almighty,
+                creator of heaven and earth;
+            </p>
+            <p>
+            I believe in Jesus Christ, his only Son, our Lord.
+                He was conceived by the power of the Holy Spirit
+                    and born of the Virgin Mary.
+                He suffered under Pontius Pilate,
+                    was crucified, died, and was buried.
+                He descended to the dead.
+                On the third day he rose again.
+                He ascended into heaven,
+                    and is seated at the right hand of the Father.
+                He will come again to judge the living and the dead.
+            </p>
+            <p>
+            I believe in the Holy Spirit,
+                the holy catholic Church,
+                the communion of saints,
+                the forgiveness of sins
+                the resurrection of the body,
+                and the life everlasting. Amen.
+            </p>
+        </div>
+        <div class="prayer">
+            <span class="officiant">The Lord be with you.</span>
+            <span class="people">And also with you.</span>
+            <span class="officiant">Let us pray.</span>
+        </div>
+        <div class="paternoster prayer">
+            Our Father, who art in heaven, hallowed be thy name, thy kingdom come, thy will be done, on earth as it is in heaven.<br>
+            Give us this day our daily bread, and forgive us our trespasses, as we forgive those who tresspass against us.<br>
+            And let us not be led into temptation, but deliver us from evil.<br>
+            For thine is the kingdom, and the power, and the glory, for ever and ever. Amen.
+        </div>
+        <div id="suffrages" class="prayer">
+            <span class="versicle">Show us your mercy, O Lord;</span>
+            <span class="response">And grant us your salvation.</span>
+            <span class="versicle">Clothe your ministers with righteousness;</span>
+            <span class="response">Let your people sing with joy.</span>
+            <span class="versicle">Give peace, O Lord, in all the world;</span>
+            <span class="response">For only in you can we live in safety.</span>
+            <span class="versicle">Lord, keep this nation under your care;</span>
+            <span class="response">And guide us in the way of justice and truth.</span>
+            <span class="versicle">Let your way be known upon earth;</span>
+            <span class="response">Your saving health among all nations.</span>
+            <span class="versicle">Let not the needy, O Lord, be forgotten;</span>
+            <span class="response">Nor the hope of the poor be taken away.</span>
+            <span class="versicle">Create in us clean hearts, O God;</span>
+            <span class="response">And sustain us with your Holy Spirit.</span>
+        </div>
+        <div id="collects prayer">
+            <div class="prayer collect daily"><span id="daily-collect"></span> <span class="everyone">Amen.</span></div>
+            <div class="prayer collect sunday"> <span class="everyone">Amen.</span></div>
+            <div class="prayer collect friday"> <span class="everyone">Amen.</span></div>
+            <div class="prayer collect saturday"> <span class="everyone">Amen.</span></div>
+            <div class="prayer collect monday"> <span class="everyone">Amen.</span></div>
+            <div class="prayer collect tuesday"> <span class="everyone">Amen.</span></div>
+            <div class="prayer collect wednesday"> <span class="everyone">Amen.</span></div>
+            <div class="prayer collect thursday"> <span class="everyone">Amen.</span></div>
+            <div class="prayer collect monday thursday"> <span class="everyone">Amen.</span></div>
+            <div class="prayer collect tuesday friday"> <span class="everyone">Amen.</span></div>
+            <div class="prayer collect wednesday saturday"> <span class="everyone">Amen.</span></div>
+        </div>
+        <div class="prayer">
+            <span class="officiant">Let us bless the Lord.</span>
+            <span class="people">Thanks be to God.</span>
+        </div>
+        <div>
+            <span class="officiant">The grace of our Lord Jesus Christ, and the love of God, and the fellowship of the Holy Ghost, be with us all evermore.</span>
+            <span class="everyone">Amen.</span>
+        </div>
+    </body>
+</html>
