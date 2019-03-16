@@ -12,3 +12,5 @@ function setupPrayer() {
         p.style = 'display: block;';
     }
 }
+
+document.addEventListener("DOMContentLoaded", setupPrayer);
