@@ -2,7 +2,7 @@ div {
     padding-bottom: 10px;
 }
 
-.officiant, .people, .everyone {
+.officiant, .people, .everyone, .continuation {
     display: block;
 }
 
@@ -25,11 +25,13 @@ div {
 
 .psalm h2 {
     -webkit-margin-after: 0em;
+    margin-bottom: 0em;
 }
 
 .psalm p {
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
+    margin-top: 0em;
 }
 
 .cite {
@@ -39,4 +41,8 @@ div {
 
 .psalm, .collect, .verse {
     display: none;
+}
+
+.continuation {
+    padding-left: 1em;
 }
