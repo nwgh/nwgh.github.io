@@ -6,7 +6,7 @@ div {
     display: block;
 }
 
-.people, .everyone {
+.people, .everyone, .response {
     font-style: italic;
 }
 
