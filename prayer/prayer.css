@@ -2,7 +2,7 @@ div {
     padding-bottom: 10px;
 }
 
-.officiant, .people, .everyone, .continuation {
+.officiant, .people, .everyone, .continuation, .versicle, .response {
     display: block;
 }
 
@@ -10,7 +10,7 @@ div {
     font-style: italic;
 }
 
-.people .everyone, .officiant .everyone{
+.people .everyone, .officiant .everyone {
     display: inline;
 }
 
@@ -28,7 +28,7 @@ div {
     margin-bottom: 0em;
 }
 
-.psalm p {
+.psalm p, .confession p, .absolution p {
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
     margin-top: 0em;
