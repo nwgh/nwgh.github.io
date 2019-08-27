@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/nwgh
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nwgh.org
+  * I am nwgh (https://keybase.io/nwgh) on keybase.
+  * I have a public key with fingerprint 67ED C5A0 BFC9 0A3D 147A  B1A1 563B 6E25 96A7 0AAF
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010185106c0619a0cdd0fcbcc6cbc4cbe5b23b0bf89757fe5b6ffff269cb9993b8c80a",
+      "fingerprint": "67edc5a0bfc90a3d147ab1a1563b6e2596a70aaf",
+      "host": "keybase.io",
+      "key_id": "563b6e2596a70aaf",
+      "kid": "010185106c0619a0cdd0fcbcc6cbc4cbe5b23b0bf89757fe5b6ffff269cb9993b8c80a",
+      "uid": "1b713b9392e629275f9bcee75a219819",
+      "username": "nwgh"
+    },
+    "service": {
+      "hostname": "nwgh.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1566873159,
+  "expire_in": 157680000,
+  "prev": "3ee73ce6591bb9486da743d8f74e5a89402c4fe33c48642512582f026caabd64",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMIfAnicrVJbSBRRGF63ktyyG/VgScUQlbFtcz0zZ4kgoSIpLRFKK5ZzzpzZnbZm
+1pnxlkgPGoZkCpVQWFREUBL5EHRbUmuxoBtdCUHp9qAUVAZCEEtnpKCHHjsP5/D/
+//d95/t//kz+lEAoJ3iZ9EFubTbn4UBnTWCP3rWpkcO23sBFG7kknXzoPp26Xixp
+6lyU4wVe0BSBB4QHAkQ80XXeIJgQwC6ZYKpgUcI8NjSoKqrBQmCwIwJIMIRQwhrR
+eMSFOcO04tRJOablMVmgUp0oiPEI5JGkC7KKsIAEBUgYUFGBAKk8QgYjJmzXZzBz
+GLk0Ytosx4LYpL1/4P+z75pJOQGrgoShBEUKRCiqigExoVRVkChATYA+0KWOhfZT
+hrbq4gmuKcyxTK1JqD9Uv4u/qhHbiTNOyrE9m9j7WDbheSk36rO8hpQPq6M49lsg
+hk1LZ/NjjFrquKZtcVGBIYln+opsakBTJUGBYY7Wp0yHxkwfoahA49nx/6G1TFJi
+jiVCgQIFjKGsAR2psqRrhipTBWlQ5kUiG1SSCKvJoiKIiiYavAgIQlgHMue3VG3Z
+TFtgPlGcabpm3EJejUO5prv9u6cGckKB3GlBf7ECobw5f9YNbpkeSB+99+bGsRft
+D8LXN2TPHz6Y11b3gT97OjBW3DE3eKX62rIZg9ZAefVQS0nBj+dLI4d6s0Vdg42h
+Z6fudWa39d7Z/SrkVj0cHtnblmwKlXVN5Pfs2FjW97Fw7LM62rH80Zk1zQduv1j1
+Kfdp56ojN+c9KeifeTw5gYsqLwXbL+zcGq0oSlP+6I6WT+7lJXpyW27J4bx1lTc6
+XCtTWuHVj7fPd9bvuh9c0RC41LL1XM/4k+E0aU5f/FK1cPnOwcfvR1szhQ3Tlrze
+nHy7+Gew+0d598p3z6bOas0JZ0u/Ds1+uvpk4dXrJaOZ7j5rtfFteHsiUgynj7xs
++g7HehdsPvGop//Wol/IjD87
+=TzUB
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nwgh
+
+==================================================================
+
