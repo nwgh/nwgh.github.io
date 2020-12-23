@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            March 2020
+        </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/writ.css">
+    </head>
+    <body>
+        <main>
+            Today is <span id="md"></span> March, 2020.
+        </main>
+    </body>
+    <script type="text/javascript">
+        var now = new Date();
+        var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+        var mar = new Date(2020, 2, 1);
+        var md = ((today - mar) / (24 * 60 * 60 * 1000)) + 1;
+        document.getElementById("md").innerHTML = md;
+    </script>
+</html>
