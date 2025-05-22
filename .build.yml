@@ -1,0 +1,13 @@
+image: alpine/edge
+oauth: pages.sr.ht/PAGES:RW
+packages:
+- hut
+environment:
+  site: nwgh.srht.site
+tasks:
+- package: |
+    cd $site
+    cd public
+    tar -cvz . > ../../site.tar.gz
+- upload: |
+    hut pages publish -d $site site.tar.gz
