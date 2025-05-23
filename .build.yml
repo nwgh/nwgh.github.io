@@ -1,15 +1,26 @@
 image: alpine/edge
 oauth: pages.sr.ht/PAGES:RW
+secrets:
+  - 22778b6d-b3a1-4079-a0ad-89e4d6442ac7
 packages:
-- hut
+  - hut
 environment:
   site: nwgh.srht.site
+  GIT_SSH_COMMAND: ssh -o StrictHostKeyChecking=no
 sources:
-- https://git.sr.ht/~nwgh/nwgh.srht.site
+  - https://git.sr.ht/~nwgh/nwgh.srht.site
 tasks:
-- package: |
-    cd $site
-    cd public
-    tar -cvz . > ../../site.tar.gz
-- upload: |
-    hut pages publish -d $site site.tar.gz
+  - check: |
+      # Only deploy and mirror if this is a build of main
+      cd $site
+      if [ "$(git rev-parse origin/main)" != "$(git rev-parse HEAD)" ] ; complete-build; fi
+  - package: |
+      cd $site
+      cd public
+      tar -cvz . > ../../site.tar.gz
+  - upload: |
+      hut pages publish -d $site site.tar.gz
+  - mirror: |
+      cd $site
+      git push --force --mirror git@gitlab.com:nwgh/nwgh.gitlab.io.git
+      git push --force --mirror git@github.com:nwgh/nwgh.github.io.git
