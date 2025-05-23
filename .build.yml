@@ -13,7 +13,7 @@ tasks:
   - check: |
       # Only deploy and mirror if this is a build of main
       cd $site
-      if [ "$(git rev-parse origin/main)" != "$(git rev-parse HEAD)" ] ; complete-build; fi
+      if [ "$(git rev-parse origin/main)" != "$(git rev-parse HEAD)" ] ; complete-build ; fi
   - package: |
       cd $site
       cd public
