@@ -22,5 +22,5 @@ tasks:
       hut pages publish -d $site site.tar.gz
   - mirror: |
       cd $site
-      git push --force --mirror git@gitlab.com:nwgh/nwgh.gitlab.io.git
-      git push --force --mirror git@github.com:nwgh/nwgh.github.io.git
+      git push git@gitlab.com:nwgh/nwgh.gitlab.io.git HEAD:main
+      git push git@github.com:nwgh/nwgh.github.io.git HEAD:main
